@@ -11,5 +11,5 @@ or run the container manually:
   $ docker run -ti --rm --name apt-mirror -v ../apt-mirror:/var/spool/apt-mirror apt-mirror
 
 References:
-- Build your own APT-Mirror with Docker (D. Heinrich) https://medium.com/@moep_moep/linux-repository-mirror-with-docker-234c9a24e71e
+- [Build your own APT-Mirror with Docker (D. Heinrich)] (https://medium.com/@moep_moep/linux-repository-mirror-with-docker-234c9a24e71e)
 

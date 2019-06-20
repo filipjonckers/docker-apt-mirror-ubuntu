@@ -1,0 +1,7 @@
+version: '3'
+services:
+  apt-mirror:
+    build: .
+    container_name: apt-mirror
+    volumes:
+      - ../apt-mirror:/var/spool/apt-mirror
